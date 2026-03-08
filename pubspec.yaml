@@ -5,7 +5,7 @@ publish_to: 'none'
 
 version: 1.0.0+1
 
-resolution: workspace
+# resolution: workspace
 
 environment:
   sdk: ^3.11.0
@@ -14,6 +14,12 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
+  design_system:
+    path: ../design_system
+  login_module:
+    path: ../login_module
+  profile_module:
+    path: ../profile_module
 
 dev_dependencies:
   flutter_test:
